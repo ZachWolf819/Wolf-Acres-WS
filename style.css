@@ -25,7 +25,7 @@ body {
     background-color: teal;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
   padding-top: 15px;
 }
@@ -38,4 +38,9 @@ p {
 #Contact_Us {
   background-color: darkblue;
   color: white;
+}
+
+#dogsimg, #goatsimg, #donkeyimg {
+  max-width: 100%;
+  height: auto; 
 }
