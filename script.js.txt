@@ -1,2 +1,0 @@
-// Example: Change text content of an element
-document.getElementById("myHeading").textContent = "Hello from Wolf Acres!";
