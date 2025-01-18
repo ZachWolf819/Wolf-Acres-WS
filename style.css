@@ -1,3 +1,15 @@
+body {
+  background-color: teal;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+  padding-top: 30px;
+  font-size: 28px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -7,20 +19,20 @@
   font-weight: bold;
   background-color: darkblue;
   z-index: 1000;
-}
-
-.name {
   text-align: center;
-  font-weight: bold;
-  color: darkblue;
-  padding-top: 30px;
 }
 
-body {
-    background-color: teal;
+.navlink, .dropdown {
+  display: inline-block;
 }
 
-h1, h2, h3 {
+.navbar a {
+  z-index: 1001;
+  padding: 5px;
+  color: rgba(0, 255, 234, 0.877)
+}
+
+h1, h2 {
   text-align: center;
   padding-top: 15px;
 }
@@ -32,17 +44,13 @@ p {
 #Contact_Us {
   background-color: darkblue;
   color: white;
+  text-align: center;
 }
 
 #dogsimg, #goatsimg, #donkeyimg {
   max-width: 100%;
-  height: auto; 
-}
-
-.navbar a {
-  z-index: 1001;
-  padding: 5px;
-  color: rgba(0, 255, 234, 0.877)
+  height: auto;
+  margin: 0 auto;
 }
 
 .navbar a:hover {
@@ -62,7 +70,8 @@ p {
    border: none;
    outline: none;
    color: black;
-   background-color: white;
+   background-color: darkblue;
+   color: rgba(0, 255, 234, 0.877);
    font-weight: bold;
    z-index: 1004;
  }
@@ -98,4 +107,14 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+footer a {
+  z-index: 1001;
+  padding: 5px;
+  color: rgba(0, 255, 234, 0.877);
+  font-size:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
