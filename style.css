@@ -45,12 +45,7 @@ p {
   background-color: darkblue;
   color: white;
   text-align: center;
-}
-
-#dogsimg, #goatsimg, #donkeyimg {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .navbar a:hover {
@@ -107,6 +102,25 @@ p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.gallery {
+text-align: center;
+}
+
+.logo {
+  background-size: contain;
+  padding: 100px;
+}
+
+.logo2 {
+  zoom: 50%;
+  float: left;
+}
+
+.logo3 {
+  zoom: 50%;
+  float: right;
 }
 
 footer a {
