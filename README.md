@@ -1,3 +1,3 @@
 # Wolf-Acres-WS
-Website for Wolf Acres Dairy Farm
+My own personal website for Wolf Acres Dairy Farm (My farm)
 Still working on it day by day, not finished.
