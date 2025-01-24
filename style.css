@@ -27,36 +27,37 @@ body {
 }
 
 .navbar a {
-  z-index: 1001;
+  z-index: 1000;
   padding: 5px;
   color: rgba(0, 255, 234, 0.877)
 }
 
 h1, h2 {
   text-align: center;
-  padding-top: 15px;
 }
 
 p {
   text-align: center;
 }
 
-#Contact_Us {
+#Contact_Us, .contact-info {
   background-color: darkblue;
   color: white;
   text-align: center;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
 }
 
 .navbar a:hover {
   background-color: white;
   color: black;
-  z-index: 1002;
+  z-index: 1000;
 }
 
  /* Dropdown container */
  .dropdown {
-   z-index: 1003;
+   z-index: 1000;
    color: teal;
  }
 
@@ -68,13 +69,13 @@ p {
    background-color: darkblue;
    color: rgba(0, 255, 234, 0.877);
    font-weight: bold;
-   z-index: 1004;
+   z-index: 1000;
  }
 
 .dropdown:hover .dropbtn {
   background-color: teal;
   color: black;
-  z-index: 1005;
+  z-index: 1000;
 }
 
 /* Dropdown menu */
@@ -84,7 +85,7 @@ p {
   background-color: teal;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  z-index: 1006;
+  z-index: 1000;
 }
 
 .dropdown-content a {
@@ -92,7 +93,7 @@ p {
   padding: 10px 10px;
   text-decoration: none;
   display: block;
-  z-index: 1007;
+  z-index: 1000;
 }
 
 .dropdown-content a:hover {
@@ -108,27 +109,40 @@ p {
 text-align: center;
 }
 
+.logocontainer {
+  background-color: darkblue;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
 .logo {
-  background-size: contain;
-  padding: 100px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  margin: auto;
 }
 
 .logo2 {
-  zoom: 50%;
   float: left;
+  display: block;
 }
 
 .logo3 {
-  zoom: 50%;
   float: right;
+  display: block;
 }
 
 footer a {
-  z-index: 1001;
-  padding: 5px;
+  z-index: 1000;
   color: rgba(0, 255, 234, 0.877);
   font-size:20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-info {
+  text-align: center;
 }
