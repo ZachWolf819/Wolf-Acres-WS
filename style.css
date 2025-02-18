@@ -14,7 +14,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  min-width: 100%;
   height: 2rem;
   font-weight: bold;
   background-color: darkblue;
@@ -29,7 +29,7 @@ body {
 .navbar a {
   z-index: 1000;
   padding: 5px;
-  color: rgba(0, 255, 234, 0.877)
+  color: rgba(0, 255, 234, 0.877);
 }
 
 h1, h2 {
@@ -44,11 +44,10 @@ p {
   background-color: darkblue;
   color: white;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
   display: block;
   justify-items: center;
-  width: 100%;
+  max-width: 100%;
 }
 
 .navbar a:hover {
@@ -68,8 +67,7 @@ p {
    text-decoration: underline;
    border: none;
    outline: none;
-   color: black;
-   background-color: darkblue;
+  background-color: darkblue;
    color: rgba(0, 255, 234, 0.877);
    font-weight: bold;
    z-index: 1000;
@@ -108,10 +106,6 @@ p {
   display: block;
 }
 
-.gallery {
-text-align: center;
-}
-
 .logocontainer {
   background-color: darkblue;
   width: 300px;
@@ -129,13 +123,11 @@ text-align: center;
 }
 
 .logo2 {
-  display: block;
   width: 300px;
   height: auto;
 }
 
 .logo3 {
-  display: block;
   width: 300px;
   height: auto;
 }
@@ -143,12 +135,76 @@ text-align: center;
 footer a {
   z-index: 1000;
   color: rgba(0, 255, 234, 0.877);
-  font-size:20px;
+  font-size: 20px;
   display: inline-block;
   padding: 10px;
 }
 
-@media (min-width: 600px) {
+.does, .bucks {
+  border-style: solid;
+  border-width: 5px;
+  justify-items: center;
+}
+
+.adgalink, .goatbtn {
+  display: block;
+  font-size: 30px;
+  background-color: darkblue;
+  color: rgba(0, 255, 234, 0.877);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.parents {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#Dogs {
+  padding-bottom: 150px;
+}
+
+#image-gallery, #image-gallery2, #gallerypage {
+  justify-items: center;
+}
+
+#current-image, #current-image1, #current-image2 {
+  max-width: 100%;
+  height: auto;
+  background-color: darkblue;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.purchasebtn {
+  display: block;
+  background-color: darkblue;
+  color: teal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.gallerybtns {
+  margin-top: 3%;
+}
+
+.gallerybtns button {
+  background: snow;
+  border: none;
+  padding: 15px 45px;
+  font-size: 18px;
+  color: #262626;
+  font-weight:  700;
+  margin: 0 15px;
+}
+
+.thumbnail, .thumbnail1, .thumbnail2{
+  display: none;
+}
+
+@media (min-width: 800px) {
   .name {
     font-size: 50px;
   }
@@ -156,10 +212,35 @@ footer a {
     font-size: 20px;
   }
   #Contact_Us, .contact-info {
-    width: 20%;
+    width: 100%;
     margin: auto;
   }
-  #About_Us, #Services, #Dogs, #Donkeys {
+  #About_Us, #Services, #Dogs {
     font-size: 20px;
+  }
+  .logo2 {
+    float: left;
+  }
+  .logo3 {
+    float: right;
+  }
+  #thumbnail-container, #thumbnail-container2, #thumbnail-container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .thumbnail1, .thumbnail2, .thumbnail {
+    width: 100px;
+    height: 130px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: darkblue;
+    display: block;
+  }
+  #image-gallery, #image-gallery2, #gallerypage {
+    justify-items: center;
   }
 }

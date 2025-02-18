@@ -3,15 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Animals</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
 <header class="name">Wolf Acres
   <p>Est. 2016</p>
-  </header>
-  <div class="navbar">
+</header>
+<div class="navbar">
     <nav id="navlinks">
       <a class="navlink" href="index.html">About Us</a>
       <a class="navlink" href="animals.html">Animals</a>
@@ -28,26 +30,53 @@
     </nav>
   </div>
 
-<body>
-
 <div id="Dogs">
-    <h1>Dogs</h1>
-    <p>We have two livestock guardian dogs, Anatolian Shepards that live with and protect our livestock. They are both males named Gunner and Gibbs. Alongside the two lgds, we have two inside dogs as well named Bubba and Luna.</p>
-    <div class="gallery">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczO7QGpuPiy7LvsN55r9fQaWWBK7NSVVfCd3qfPQHh3L7HVcOQnsyaAvxoLbd4X7L_JtEGUHFRWFDZlSLkxSmJeovlKkvhgyqFSl8CT1CfbUBRuLV7I=w270-h300-p-k" />
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczMLfNavruQMsNxLupWklqVaz2lBj185a0mS116IWhuA6F5MUOMwohxWGM3NeA-_Ctj86W9jwVV1G1hh5hpFicUnyOprbe5ShaafJEDUqji2xU13W18=w300-h282-p-k" />
+    <h1>LGD Dogs</h1>
+    <p>We have two livestock guardian dogs, Anatolian Shepherds that live with and protect our livestock. They are both males named Gunner and Gibbs.</p>
+    <div id="image-gallery">
       
-    </div>
-  
-  <div id="Donkeys">
-    <h1>Donkeys</h1>
-    <p>Also, We have two miniature donkeys names June and Posey May. They are a mother and daughter. June is 7 years old and Posey is 10 months old as of the first month of 2025.</p>
-    <div class="gallery">
-    <img src="https://lh3.googleusercontent.com/pw/AP1GczN-BJP-a-B_LpPE2EhCFugKw1KLXdNt9QE-bi-ibrMjkQ60N63Pwhj1nOFNsp0vB3ogWbHPzL9QCu10HQJGbz5SryzKFK1dt0V5hF9ikhgLPM5Z2TU=w225-h300-p-k" />
-    <img src="https://lh3.googleusercontent.com/pw/AP1GczMm9JOUjrLFPMsc0n4jClI6HJ8sc2jHOAxV8-HtA2eRGC5UC2I63dYYIv6vv-eWQ43hkMBFRb-HGQeLx9keTRk5KucyizvSOoMhVB4Z8MhVf4F1EVw=w300-h225-p-k" />
+      <img src="Gibbs.jpg" alt="Gibbs" id="current-image1" />
+        <div id="thumbnail-container">
+          <img src="Gibbs.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs2.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs3.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs4.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs5.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs6.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs7.jpg" alt="Gibbs" class="thumbnail1" />
+          <img src="Gibbs8.jpg" alt="Gibbs" class="thumbnail1" />
+      </div>
+      <div class="gallerybtns">
+        <button id="prev-button1">Prev</button>
+        <button id="next-button1">Next</button>
+      </div>
   </div>
-</div>
 
+    <div>
+      <h1>Pets - Dogs, Donkeys, and our Mascot Walker!</h1>
+      <p>We also have two pet dogs named Bubba and Luna that live inside with us, two miniature donkeys named June and Posey(mother and daughter), and our new Wolf Acres farm mascot Walker!</p>
+      <div id="image-gallery2">
+        <img src="luna2.jpg" alt="Luna" id="current-image2" />
+
+        <div id="thumbnail-container2">
+            <img src="luna2.jpg" alt="Luna" class="thumbnail2" />
+            <img src="luna3.jpg" alt="Luna" class="thumbnail2" />
+            <img src="Bubba.jpg" alt="Bubba" class="thumbnail2" />
+            <img src="Bubba2.jpg" alt="Bubba" class="thumbnail2" />
+            <img src="Bubba3.jpg" alt="Bubba" class="thumbnail2" />
+            <img src="Donkey.jpg" alt="Donkey" class="thumbnail2" />
+            <img src="Donkey2.jpg" alt="Donkey" class="thumbnail2" />
+            <img src="walker.jpg" alt="Walker" class="thumbnail2" />
+            <img src="walker2.jpg" alt="Walker" class="thumbnail2" />
+        </div>
+        <div class="gallerybtns">
+          <button id="prev-button2">Prev</button>
+          <button id="next-button2">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery</title>
   <link rel="stylesheet" href="style.css">
@@ -29,16 +30,30 @@
   </div>
 
 <body>
+  <div class="pagebody">
   <h2>Gallery</h2>
-  <div class="gallery">
-    <a href="https://lh3.googleusercontent.com/pw/AP1GczOtMjdR851_eeAyCTy_4tKUHHCD-OZ3FWT8RuAF8-cYxiD7VZeTcYfn2He8T33VzaSf-AuYNKpqZMDIh_4hOEXBDulDx9OC98jze3YZV4PYE5-FbA=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/AP1GczOtMjdR851_eeAyCTy_4tKUHHCD-OZ3FWT8RuAF8-cYxiD7VZeTcYfn2He8T33VzaSf-AuYNKpqZMDIh_4hOEXBDulDx9OC98jze3YZV4PYE5-FbA=w521-h315-p-k" /> </a>
-    <a href="https://lh3.googleusercontent.com/pw/AP1GczPAKjM_Y-x1zJ3lwb1IXE8T7l_bT8b-ObW48RtjjV2UmGsv0fgQ0DdjHUVLuQI7PA9CMugr46as-bVt4MSNJU6OlItZlWenfGuiByOIWTV8KHS5GA1k=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/AP1GczPAKjM_Y-x1zJ3lwb1IXE8T7l_bT8b-ObW48RtjjV2UmGsv0fgQ0DdjHUVLuQI7PA9CMugr46as-bVt4MSNJU6OlItZlWenfGuiByOIWTV8KHS5GA1k=w600-h315-p-k" /> </a>
-    <a href="https://lh3.googleusercontent.com/pw/AP1GczMhlk9DK6SWh1FifIZU8_cU_6gBQoD2JLUv__T4kT-gQNSJG0VgL1qcHyEZyBNj22tPdIosKsA71phEw4HNkFEcfEvQ-dwETv6E1t4Npzp3wODfT2VM=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/AP1GczMhlk9DK6SWh1FifIZU8_cU_6gBQoD2JLUv__T4kT-gQNSJG0VgL1qcHyEZyBNj22tPdIosKsA71phEw4HNkFEcfEvQ-dwETv6E1t4Npzp3wODfT2VM=w600-h315-p-k" /> </a>
-    <a href="https://lh3.googleusercontent.com/pw/AP1GczPsaWqQtBDLvLljbCgYS-iVV4_KtucHFgDNMrmmuS5iJthbUFkaICtNb88O9ICgzk_mLP8NgFAK7EJr6-JK64QJA2KTDQ1iUCPeIj2d0ULYKOiKE97R=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/AP1GczPsaWqQtBDLvLljbCgYS-iVV4_KtucHFgDNMrmmuS5iJthbUFkaICtNb88O9ICgzk_mLP8NgFAK7EJr6-JK64QJA2KTDQ1iUCPeIj2d0ULYKOiKE97R=w600-h315-p-k" /> </a>
-    <a href="https://lh3.googleusercontent.com/pw/AP1GczNEz5RvTqcHHLscuAn00xSGahQa4y7aJUvhIOB8j6RMSw_7rU99JZMu_XpWDbkgC5TSgOjZbDYM4tOiuURn40v77rKVEDNH8WZM-d8Qqx9s_MoxwcHM=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/AP1GczNEz5RvTqcHHLscuAn00xSGahQa4y7aJUvhIOB8j6RMSw_7rU99JZMu_XpWDbkgC5TSgOjZbDYM4tOiuURn40v77rKVEDNH8WZM-d8Qqx9s_MoxwcHM=w600-h315-p-k" /> </a>
-
+  <p>Random pictures from the farm!</p>
+  <div id="gallerypage">
+    
+    <img src="apollo.jpg" alt="apollo" id="current-image" />
+    <div id="thumbnail-container3">
+      <img src="apollo.jpg" alt="Luna" class="thumbnail" />
+      <img src="apollo2.JPG" alt="Luna" class="thumbnail" />
+      <img src="apollo3.JPG" alt="Bubba" class="thumbnail" />
+      <img src="apollo4.JPG" alt="Bubba" class="thumbnail" />
+      <img src="apollo5.JPG" alt="Bubba" class="thumbnail" />
+      <img src="apollo6.JPG" alt="Donkey" class="thumbnail" />
+      <img src="apollo7.JPG" alt="Donkey" class="thumbnail" />
+      <img src="pasture.jpg" alt="Walker" class="thumbnail" />
+      <img src="pasture2.jpg" alt="Walker" class="thumbnail" />
   </div>
-
+  <div class="gallerybtns">
+    <button id="prev-button">Prev</button>
+    <button id="next-button">Next</button>
+  </div>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 
 </html>
